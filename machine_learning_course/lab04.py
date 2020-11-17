@@ -87,10 +87,6 @@ def TODO2():
     plt.show()
 
 
-def TODO3():
-
-
-
 def main():
     TODO2()
 
