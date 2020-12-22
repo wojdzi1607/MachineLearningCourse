@@ -41,7 +41,7 @@ def TODO1():
     y_predict_0 = ['0']*len(y_test)
     print(metrics.classification_report(y_test, y_predict_0))
 
-    # UZUPEŁNIENIE DBRAKUJĄCYCH ANYCH
+    # UZUPEŁNIENIE BRAKUJĄCYCH DANYCH
 
     X_combined = pd.concat([X_train, y_train.astype(float)], axis=1)
     print(X_combined.head(5))
